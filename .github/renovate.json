@@ -21,15 +21,9 @@
     "dependencies",
     "security"
   ],
-  "assignees": ["@me"],
-  "reviewers": ["@me"],
+  "assignees": ["Jay2006sawant"],
+  "reviewers": ["Jay2006sawant"],
   "packageRules": [
-    {
-      "description": "Only update Go dependencies with known vulnerabilities",
-      "matchManagers": ["gomod"],
-      "matchUpdateTypes": ["major", "minor", "patch"],
-      "enabled": false
-    },
     {
       "description": "Enable security updates for Go dependencies",
       "matchManagers": ["gomod"],

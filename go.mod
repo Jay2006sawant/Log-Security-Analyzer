@@ -4,9 +4,9 @@ go 1.23.0
 
 toolchain go1.24.3
 
-require (
-	github.com/go-chi/chi v4.1.2+incompatible
-	gopkg.in/yaml.v2 v2.2.8
-)
+require github.com/sirupsen/logrus v1.4.2
 
-require golang.org/x/net v0.40.0 // indirect
+require (
+	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+)
